@@ -5,11 +5,12 @@ export function ProductsIndex(props) {
       <div className="header-all-products">
         <h2>All Movies/Shows</h2>
       </div>
-      {props.myProducts.map((post) => (
-        <div key={post.id} className="products">
-          <h3>{post.title}</h3>
-          <img src={post.image} alt="" />
-          <p>{post.body}</p>
+
+      {props.myProducts.map((product) => (
+        <div key={product.id} className="products">
+          <h3>{product.title}</h3>
+          <img src={product.image} alt="" />
+          <p>{product.body}</p>
         </div>
       ))}
     </div>
