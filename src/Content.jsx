@@ -1,8 +1,9 @@
 import { ProductsIndex } from "./ProductsIndex";
 import { ProductsNew } from "./ProductsNew";
+import axios from "axios";
 
 export function Content() {
-  let products = [{ name: "name", price: 25, description: "asdfasd" }];
+  let products = [];
   return (
     <div>
       <ProductsNew />
