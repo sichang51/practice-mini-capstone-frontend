@@ -12,13 +12,14 @@ export function Header() {
       <div className="headerbar">
         <a href="#home">
           <button className="header-home-button">
-            <img
+            Home
+            {/* <img
               src={"https://cdn-icons-png.flaticon.com/512/10542/10542477.png"}
               alt=""
               width={50}
               height={50}
               onClick={() => <onClick function></onClick>}
-            />
+            /> */}
           </button>
         </a>{" "}
         <a href="#all-movies">
